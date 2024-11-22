@@ -7,7 +7,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const lockAddress = "0xdF1d46E61994B591162339b5Ac45886B87Fb281a";
+  const lockAddress = "INPUT DEPLOYED ADDRESS";
   console.log(`Lock address: ${lockAddress}`);
   const [deployer] = await hre.ethers.getSigners();
   console.log(`Deployer address: ${deployer.address}`);
